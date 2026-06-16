@@ -53,9 +53,9 @@ export function Contact() {
           <div className="space-y-4">
             {/* Email item */}
             <div className="flex items-center justify-between gap-3 p-3 bg-white/40 border border-border-subtle/50 rounded-[8px] shadow-sm">
-              <div className="flex items-center space-x-3 text-left">
-                <Mail size={16} className="text-accent-primary" />
-                <span className="text-[13px] font-mono text-text-secondary select-all">{email}</span>
+              <div className="flex items-center space-x-3 text-left min-w-0">
+                <Mail size={16} className="text-accent-primary shrink-0" />
+                <span className="text-[13px] font-mono text-text-secondary select-all truncate">{email}</span>
               </div>
               <div className="flex items-center space-x-2 shrink-0">
                 <button
@@ -77,9 +77,9 @@ export function Contact() {
 
             {/* LinkedIn item */}
             <div className="flex items-center justify-between gap-3 p-3 bg-white/40 border border-border-subtle/50 rounded-[8px] shadow-sm">
-              <div className="flex items-center space-x-3 text-left">
-                <Linkedin size={16} className="text-accent-primary" />
-                <span className="text-[13px] font-mono text-text-secondary">linkedin.com/in/yaswanth-babu</span>
+              <div className="flex items-center space-x-3 text-left min-w-0">
+                <Linkedin size={16} className="text-accent-primary shrink-0" />
+                <span className="text-[13px] font-mono text-text-secondary truncate">linkedin.com/in/yaswanth-babu</span>
               </div>
               <a
                 href="https://www.linkedin.com/in/yaswanth-babu-ankipalli-73041b171/"
@@ -93,9 +93,9 @@ export function Contact() {
 
             {/* GitHub item */}
             <div className="flex items-center justify-between gap-3 p-3 bg-white/40 border border-border-subtle/50 rounded-[8px] shadow-sm">
-              <div className="flex items-center space-x-3 text-left">
-                <Github size={16} className="text-accent-primary" />
-                <span className="text-[13px] font-mono text-text-secondary">github.com/yaswanthbabuankipalli</span>
+              <div className="flex items-center space-x-3 text-left min-w-0">
+                <Github size={16} className="text-accent-primary shrink-0" />
+                <span className="text-[13px] font-mono text-text-secondary truncate">github.com/yaswanthbabuankipalli</span>
               </div>
               <a
                 href="https://github.com/yaswanthbabuankipalli"
