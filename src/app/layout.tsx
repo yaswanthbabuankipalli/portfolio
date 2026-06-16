@@ -17,14 +17,14 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Yaswanth Babu Ankipalli — Python & AI Engineer | RAG Pipelines · LLM Fine-tuning · Voice AI",
   description: "Python Developer with 1.5+ years building production RAG pipelines, voice AI systems, and LLM fine-tuning workflows at CoRover.ai. Available for full-time and freelance roles.",
-  metadataBase: new URL("https://yaswanth.dev"),
+  metadataBase: new URL("https://yaswanth-babu-ankipalli-portfolio.netlify.app"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "Yaswanth Babu Ankipalli — Python & AI Engineer",
     description: "I build production RAG pipelines, voice AI systems, and LLM workflows that ship to real users — including 10M+ IRCTC passengers.",
-    url: "https://yaswanth.dev",
+    url: "https://yaswanth-babu-ankipalli-portfolio.netlify.app",
     siteName: "Yaswanth Babu Portfolio",
     images: [
       {
