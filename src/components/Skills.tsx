@@ -64,7 +64,9 @@ export function Skills() {
             <motion.div
               key={group.category}
               variants={cardVariants}
-              className="glass transition-all duration-300 rounded-[12px] p-6 sm:p-8 space-y-6 hover:border-accent-primary/20 shadow-sm hover:shadow-md hover:-translate-y-0.5"
+              className={`glass transition-all duration-300 rounded-[12px] p-6 sm:p-8 space-y-6 hover:border-accent-primary/20 shadow-sm hover:shadow-md hover:-translate-y-0.5 ${
+                group.category === "AI / ML" ? "md:col-span-2" : ""
+              }`}
             >
               {/* Category Header */}
               <div className="space-y-2">

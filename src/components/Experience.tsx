@@ -1,10 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Star, Award, GraduationCap, Calendar, MapPin, CheckCircle2 } from "lucide-react";
+import { Award, GraduationCap, Calendar, MapPin, CheckCircle2 } from "lucide-react";
 
 export function Experience() {
   const contributions = [
+    "IRCTC AskDisha 2.0 — quality audits and escalation tracking that reduced bot escalation by ~15% (serving 10M+ daily passengers)",
     "Hybrid RAG pipeline — <200ms latency, 40% fewer LLM calls",
     "Multi-stage reranking workflow — 30% accuracy improvement",
     "Video-RAG platform — YouTube/file ingestion + Whisper ASR",
@@ -76,24 +77,6 @@ export function Experience() {
                   <span>Bangalore, India</span>
                 </span>
               </div>
-            </div>
-
-            {/* IRCTC ASK DISHA HIGHLIGHT BLOCK - soft warm peach glow */}
-            <div className="relative overflow-hidden bg-[#FF9E79]/5 border border-[#FF9E79]/20 rounded-[10px] p-5 md:p-6 space-y-3 shadow-sm">
-              <div className="absolute top-0 right-0 w-[150px] h-[150px] bg-[#FF9E79]/8 rounded-full blur-[40px] pointer-events-none" />
-              
-              <div className="flex items-center space-x-2 text-orange-600 font-bold">
-                <Star size={16} fill="currentColor" />
-                <span className="font-mono text-xs uppercase tracking-wider">
-                  IRCTC AskDisha 2.0
-                </span>
-              </div>
-
-              <p className="text-[13.5px] leading-relaxed text-text-secondary">
-                Conducted quality audits and implemented escalation tracking systems that successfully reduced bot escalation rate by{" "}
-                <span className="text-text-primary font-bold">~15%</span> on India's largest railway booking platform — serving{" "}
-                <span className="text-text-primary font-bold">10M+ daily passengers</span>.
-              </p>
             </div>
 
             {/* Key Contributions */}

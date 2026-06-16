@@ -45,14 +45,14 @@ export function MetricsStrip() {
             return (
               <div
                 key={idx}
-                className="relative group glass rounded-[12px] p-7 transition-all duration-355 flex flex-col justify-between shadow-sm hover:shadow-md hover:-translate-y-0.5 hover:border-accent-primary/20"
+                className="relative group glass rounded-[12px] p-5 sm:p-6 transition-all duration-355 flex flex-col justify-between shadow-sm hover:shadow-md hover:-translate-y-0.5 hover:border-accent-primary/20"
               >
                 {/* Metric glow backdrop */}
                 <div className="absolute top-[20%] left-1/2 -translate-x-1/2 w-16 h-16 rounded-full bg-accent-primary/5 blur-md pointer-events-none group-hover:scale-125 transition-transform duration-500" />
 
                 {/* Number Display */}
                 <div className="relative z-10 mb-4 select-none">
-                  <span className="font-mono text-4xl sm:text-5xl font-extrabold text-accent-primary tracking-tight">
+                  <span className="font-mono text-3xl sm:text-4xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-extrabold text-accent-primary tracking-tight">
                     {metric.prefix}
                     {animatedVal}
                     {metric.suffix}

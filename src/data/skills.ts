@@ -20,11 +20,6 @@ export const skillGroups: SkillGroup[] = [
     color: "red",
     skills: ["PostgreSQL", "pgvector", "FAISS", "Redis", "MongoDB", "Supabase"],
   },
-  {
-    category: "DevOps",
-    color: "green",
-    skills: ["Docker", "Jenkins CI/CD", "GitHub Actions", "Render", "Vercel", "API Deployment"],
-  },
 ];
 
 export const currentlyLearning: string[] = ["LangGraph", "LlamaIndex", "Multimodal RAG"];
