@@ -126,10 +126,10 @@ export function Hero() {
               <span>View My Work</span>
               <ArrowRight size={16} />
             </button>
-            
+
             <a
-              href="/yaswanth_babu_resume.pdf"
-              download="yaswanth_babu_resume.pdf"
+              href="/Yaswanth Babu A.pdf"
+              download="Yaswanth Babu A.pdf"
               className="h-11 px-5 border border-accent-primary/75 text-accent-primary hover:bg-accent-primary/5 font-semibold rounded-[8px] flex items-center space-x-2 transition-all active:scale-[0.98] glass shadow-sm"
             >
               <FileText size={16} />
@@ -169,7 +169,7 @@ export function Hero() {
           <div className="relative group">
             {/* Soft backdrop glow behind image */}
             <div className="absolute inset-0 -m-2 rounded-2xl bg-gradient-to-tr from-accent-primary/20 to-accent-secondary/20 opacity-60 blur-xl transition-all duration-500 group-hover:opacity-85 group-hover:scale-105" />
-            
+
             {/* The Image frame - Frosted glass card */}
             <div className="relative w-[280px] h-[340px] sm:w-[300px] sm:h-[365px] rounded-2xl glass p-3.5 overflow-hidden transition-all duration-300 hover:border-accent-primary/30 shadow-md">
               <div className="w-full h-full rounded-xl overflow-hidden bg-bg-primary/20 relative">

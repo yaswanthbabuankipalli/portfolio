@@ -110,8 +110,8 @@ export function Contact() {
 
           {/* Download Resume Button */}
           <a
-            href="/yaswanth_babu_resume.pdf"
-            download="yaswanth_babu_resume.pdf"
+            href="/Yaswanth Babu A.pdf"
+            download="Yaswanth Babu A.pdf"
             className="w-full h-12 bg-accent-primary hover:bg-accent-primary/95 text-white font-mono text-[13px] font-bold uppercase tracking-wider rounded-[8px] flex items-center justify-center space-x-2 transition-all active:scale-[0.98] shadow-md cursor-pointer"
           >
             <FileText size={16} />

@@ -126,7 +126,7 @@ Single scrollable page with smooth anchor navigation. No page routing needed (ex
 
 **Right nav links:** `Work` · `Skills` · `Experience` · `Contact`
 
-**Right CTA:** `Resume ↓` button — outlined style, accent border, downloads `yaswanth_babu_resume.pdf`
+**Right CTA:** `Resume ↓` button — outlined style, accent border, downloads `Yaswanth Babu A.pdf`
 
 **Mobile:** hamburger icon → full-screen slide-down menu with same links
 
@@ -629,7 +629,7 @@ Add these to `<head>`:
 ```
 portfolio/
 ├── public/
-│   ├── yaswanth_babu_resume.pdf       ← keep updated
+│   ├── Yaswanth Babu A.pdf       ← keep updated
 │   ├── og-image.png                   ← 1200×630 social preview image
 │   └── favicon.ico                    ← YB monogram
 ├── src/
@@ -780,7 +780,7 @@ LinkedIn:     https://linkedin.com/in/yaswanth-babu-ankipalli-73041b171
 GitHub:       [add your GitHub username]
 Role:         Python Developer @ CoRover.ai (Oct 2024 – Present)
 Education:    B.Tech CSIT, Siddharth Institute of Engineering & Technology, 2021–2024, CGPA 7.55
-Resume file:  yaswanth_babu_resume.pdf
+Resume file:  Yaswanth Babu A.pdf
 ```
 
 ---

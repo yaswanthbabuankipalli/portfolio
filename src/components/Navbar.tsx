@@ -45,11 +45,10 @@ export function Navbar() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-350 ${
-          scrolled
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-350 ${scrolled
             ? "nav-glass py-3.5"
             : "bg-transparent py-6"
-        }`}
+          }`}
       >
         <div className="max-w-[1100px] mx-auto px-6 flex items-center justify-between">
           {/* Left: Monogram Logo */}
@@ -78,8 +77,8 @@ export function Navbar() {
           {/* Desktop CTA Resume Button */}
           <div className="hidden md:block">
             <a
-              href="/yaswanth_babu_resume.pdf"
-              download="yaswanth_babu_resume.pdf"
+              href="/Yaswanth Babu A.pdf"
+              download="Yaswanth Babu A.pdf"
               className="inline-flex items-center space-x-1.5 px-4 py-2 border border-accent-primary/60 hover:border-accent-primary text-accent-primary hover:bg-accent-primary/5 rounded-[8px] text-[14px] font-mono font-bold transition-all duration-200"
             >
               <span>Resume</span>
@@ -123,8 +122,8 @@ export function Navbar() {
 
             <div className="pt-6 border-t border-border-subtle">
               <a
-                href="/yaswanth_babu_resume.pdf"
-                download="yaswanth_babu_resume.pdf"
+                href="/Yaswanth Babu A.pdf"
+                download="Yaswanth Babu A.pdf"
                 className="w-full flex items-center justify-center space-x-2 py-3 border border-accent-primary text-accent-primary hover:bg-accent-primary/5 rounded-[8px] font-mono text-[14px] font-semibold transition-all"
               >
                 <span>Download Resume</span>
